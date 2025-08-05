@@ -173,13 +173,6 @@ button[type="submit"]:hover {
   border-radius: 14px;
 }
 
-.six .hat {
-  position: absolute;
-  left: 10px;
-  top: -35%;
-  width: 60px;
-  rotate: 14deg;
-}
 
 .ballons img {
   display: inline-block;
@@ -291,30 +284,13 @@ button[type="submit"]:hover {
 }
 
 /* Media Queries */
-@media screen and (max-height: 1000px) {
-  .six .hat {
-    left: 55%;
-    padding-top: 40px;
-  }
-}
 
-@media screen and (max-height: 800px) {
-  .six .hat {
-    left: 37%;
-  }
-}
 
-@media screen and (max-height: 700px) {
-  .six .hat {
-    left: 32%;
-  }
-}
 
-@media screen and (max-height: 850px) and (max-width: 450px) {
-  .six .hat {
-    left: 32%;
-  }
-}
+
+
+
+
 
 @media screen and (max-width: 500px) {
   .login_form{
@@ -349,10 +325,7 @@ button[type="submit"]:hover {
     font-size: 10rem;
   }
 
-  .six .hat {
-    /* top: -20px; */
-    width: 50px;
-  }
+  
 
   .wish-hbd {
     font-size: 2.2em;
